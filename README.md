@@ -12,7 +12,7 @@
   - 開發模式：透過 UART (921600 baud) 傳送至 PC 虛擬 SD 卡。
   - 部署模式：切換改為寫入實體 MicroSD 卡。
 
-## 🛠️ 使用說明
+## 使用說明
 1. 修改 `main.cpp` 中的 `USE_REAL_SD_CARD` 切換儲存模式。
 2. 若使用虛擬 SD 卡，請執行電腦端的 `mock_sd_card.py` 接收照片。
 3. 調整 `diff_threshold` 與 `motion_limit` 以適應不同的戶外光影環境。
